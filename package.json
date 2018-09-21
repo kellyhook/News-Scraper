@@ -1,0 +1,27 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "news scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyhook/News-Scraper.git"
+  },
+  "author": "Kelly Hook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellyhook/News-Scraper/issues"
+  },
+  "homepage": "https://github.com/kellyhook/News-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongojs": "^2.6.0",
+    "request": "^2.88.0"
+  }
+}
